@@ -1,0 +1,59 @@
+:root {
+    --content-max: 100ch;
+    --gutter: 1rem;
+    color-scheme: light dark;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+    color: light-dark(black, white);
+    background-color: light-dark(white, #0e100f);
+}
+
+body {
+    max-width: var(--content-max);
+    padding-inline: var(--gutter);
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+section {
+    margin-bottom: 1.4rem;
+}
+
+h2, h3 {
+    margin-bottom: 0.8rem;
+}
+
+.listing {
+    display: flex;
+    gap: 0.6rem;
+}
+
+.list-item {
+    background-color: light-dark(white, #1e211f);
+    padding: 0.8rem;
+    flex-basis: calc(33% - 0.6rem);
+}
+
+.list-item-body,
+.list-item-body > a,
+.list-item-body > p {
+    background-color: inherit;
+}
+
+.list-item-name {
+    color: light-dark(#2b5375, #99bcd9);
+}
+
+.listing-subtitle {
+    margin-top: 0.4rem;
+    color: darkgray;
+    font-size: 0.8rem;
+}

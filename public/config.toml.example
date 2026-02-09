@@ -1,0 +1,17 @@
+[apps.app1]
+title = "Glances"
+subtitle = "CPU, GPU and RAM monitoring"
+url = "https://example.dev"
+
+[apps.app2]
+title = "yarr! RSS"
+subtitle = "RSS Feed Reader"
+url = "https://example.dev"
+
+[services.service1]
+title = "Caddy"
+subtitle = "Web server and reverse proxy"
+
+[services.service2]
+title = "Samba"
+subtitle = "File sharing"

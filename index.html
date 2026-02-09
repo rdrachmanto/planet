@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Welcome to Atlas</title>
+    <link href="/style.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <header>
+      <h2>Welcome to Atlas</h2>
+    </header>
+    <main>
+      <template id="apps-card">
+        <div class="list-item">
+          <div class="list-item-body">
+            <a class="list-item-name" href="" data-url></a>
+            <p class="listing-subtitle" data-subtitle></p>
+          </div>
+          <div class="operational-status"></div>
+        </div>
+      </template>
+
+      <template id="services-card">
+        <div class="list-item">
+          <div class="list-item-body">
+            <p data-title></p>
+            <p class="listing-subtitle" data-subtitle></p>
+          </div>
+          <div class="operational-status"></div>
+        </div>
+      </template>
+      
+      <section class="applications">
+        <h3>Apps</h3>
+        <div class="listing" id="app-listing">
+        </div>
+      </section>
+      
+      <section class="services">
+        <h3>Services</h3>
+        <div class="listing" id="service-listing">
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
