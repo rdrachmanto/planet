@@ -14,6 +14,7 @@ dist-ssr
 
 # config files
 public/config.toml
+.direnv/
 
 # Editor directories and files
 .vscode/*
